@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green"></div>
+
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+
+    <h2 id="desc">How to Play:</h2>
+    <div class="rule">
+      1. Start the Game: The game will display a message "Press A Key to Start".
+      Press any key to begin.<br />
+      <br />2. Remember the Sequence: The game will show a sequence of colors by
+      lighting up the corresponding buttons.<br />
+      <br />3. Repeat the Sequence: After the sequence is displayed, it's your
+      turn to repeat it. Click on the buttons in the same order as shown.<br />
+      <br />4. Advance to the Next Level: If you successfully repeat the
+      sequence, the game will advance to the next level, adding a new color to
+      the sequence.<br />
+      <br />5. Keep Playing: Continue to repeat the sequences as they become
+      longer and more challenging.<br />
+      <br />6. Game Over: If you make a mistake in repeating the sequence, the
+      game will end, and you'll have to start over.<br />
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./game.js" charset="utf-8"></script>
+  </body>
+</html>
