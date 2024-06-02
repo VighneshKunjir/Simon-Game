@@ -13,5 +13,5 @@ Welcome to the Simon game! Simon is a classic memory game where players must rep
 
 ## Features:
 
-- . Responsive Design: The application is designed to work on various screen sizes, allowing you to play Simon on desktops, laptops, tablets, and mobile devices.
-- . Retro Font: The font used in this project is "Press Start 2P", giving it a nostalgic retro gaming feel.
+- Responsive Design: The application is designed to work on various screen sizes, allowing you to play Simon on desktops, laptops, tablets, and mobile devices.
+- Retro Font: The font used in this project is "Press Start 2P", giving it a nostalgic retro gaming feel.
